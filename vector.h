@@ -11,9 +11,12 @@ class Vector
         Vector(int _x);
         Vector();
 
-        void print();
-        int getX();
-        int getY();
+        void print() const;
+        int getX() const;
+        int getY() const;
+
+        void editX(int x);
+        void editY(int y);
 };
 
 #endif
