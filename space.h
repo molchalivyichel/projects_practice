@@ -1,21 +1,21 @@
-#include "vector.h"
-
 #ifndef SPACE_H  
 #define SPACE_H
+
+#include "vector.h"
 
 class Space
 {
     private:
-        Vector coords;
+        const Vector coords;
         const int count_hurdle;
         const int coord;
-        int** massive_hurdle;
+        Vector* massive_hurdle;
     public:
-        Space(Vector _coords, const int _count_hurdle, const int coord = 2);
         Space(Vector _coords, const int _count_hurdle);
         ~Space();
 
         void initializeHurdles();
+        void printHurdles() const; 
 
 };
 

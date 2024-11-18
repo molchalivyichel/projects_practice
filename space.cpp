@@ -1,24 +1,36 @@
-#include <iostream>
 #include "vector.h"
 #include "space.h"
+#include "function_test.h"
 
-Space::Space(Vector _coords, const int _count_hurdle, const int _coord = 2)
- : coords(_coords), count_hurdle(_count_hurdle), coord(_coord) {}
-
-Space::Space(Vector _coords, const int _count_hurdle)
- : coords(_coords), count_hurdle(_count_hurdle), coord(2) {}
+Space::Space(const Vector _coords, const int _count_hurdle)
+ : coords(_coords), count_hurdle(_count_hurdle), coord(2) 
+{
+    massive_hurdle = new Vector[count_hurdle];
+}
 
 Space::~Space()
 {
-    for (int i = 0; i < count_hurdle; ++i)
-    {
-        delete[] massive_hurdle[i];
-    }
     delete[] massive_hurdle;
     massive_hurdle = nullptr;
 }
 
 void Space::initializeHurdles()
 {
-    
+    int _x, _y = 0;
+
+    for(int i = 0; i < count_hurdle; ++i)
+    {
+        _x = cin_variable("X: ");
+        _y = cin_variable("Y: ");
+
+        massive_hurdle[i] = Vector(_x, _y);
+    }
+}
+
+void Space::printHurdles() const
+{
+    for(int i = 0; i < count_hurdle; ++i)
+    {
+        massive_hurdle[i].print();
+    }    
 }
