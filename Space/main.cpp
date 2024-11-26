@@ -6,14 +6,13 @@
 int main()
 {
     Screen screen{ {10,10} };
-    screen.setColor(10, 0);
+    Space space{ {10,10}, 5 };
+    char symboles[3] {'*', '@'};
 
-    Space space{{10,10}, 5};
+    screen.setColor(10, 0);
     space.initializeHurdles();
     screen.setColor(3, 0);
-
-    screen.printMassive()
-
+    screen.printSpace(space, symboles);
 
     return 0;
 }

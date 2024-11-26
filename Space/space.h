@@ -3,13 +3,15 @@
 
 #include "vector.h"
 
+class Screen;
+
 class Space
 {
     private:
         const Vector coords;
         const int count_hurdle;
-        const int coord;
         Vector* massive_hurdle;
+        friend class Screen;
     public:
         Space(Vector _coords, const int _count_hurdle);
         ~Space();
