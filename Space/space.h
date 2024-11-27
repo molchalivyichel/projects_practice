@@ -21,7 +21,6 @@ class Space
         ~Space();
 
         Vector* getMassiveHurdle() const;
-        void initializeHurdles();
         void sortMassiveHurdle();
         bool checkBorder(Vector value);
         void deletionMassiveHurdle();

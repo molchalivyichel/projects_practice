@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|E:\\C# and Python\\projects_practice\\Space\\screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|solutionrelative:screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|E:\\C# and Python\\projects_practice\\Space\\space.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|solutionrelative:space.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|E:\\C# and Python\\projects_practice\\Space\\screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|solutionrelative:screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|E:\\C# and Python\\projects_practice\\Space\\space.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|solutionrelative:space.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|E:\\C# and Python\\projects_practice\\Space\\screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|solutionrelative:screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|E:\\C# and Python\\projects_practice\\Space\\screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4E6EB1D-45DD-497B-8E0E-80A56F42B8ED}|Space.vcxproj|solutionrelative:screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,52 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "space.cpp",
               "DocumentMoniker": "E:\\C# and Python\\projects_practice\\Space\\space.cpp",
               "RelativeDocumentMoniker": "space.cpp",
               "ToolTip": "E:\\C# and Python\\projects_practice\\Space\\space.cpp",
               "RelativeToolTip": "space.cpp",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-24T05:33:35.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "space.h",
               "DocumentMoniker": "E:\\C# and Python\\projects_practice\\Space\\space.h",
               "RelativeDocumentMoniker": "space.h",
               "ToolTip": "E:\\C# and Python\\projects_practice\\Space\\space.h",
               "RelativeToolTip": "space.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-26T05:04:11.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "screen.cpp",
               "DocumentMoniker": "E:\\C# and Python\\projects_practice\\Space\\screen.cpp",
               "RelativeDocumentMoniker": "screen.cpp",
               "ToolTip": "E:\\C# and Python\\projects_practice\\Space\\screen.cpp",
               "RelativeToolTip": "screen.cpp",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-23T04:47:32.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "screen.h",
               "DocumentMoniker": "E:\\C# and Python\\projects_practice\\Space\\screen.h",
               "RelativeDocumentMoniker": "screen.h",
               "ToolTip": "E:\\C# and Python\\projects_practice\\Space\\screen.h",
               "RelativeToolTip": "screen.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-23T04:47:30.223Z",
               "EditorCaption": ""
