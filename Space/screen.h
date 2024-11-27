@@ -16,11 +16,16 @@ public:
     Screen();
     ~Screen();
     void setColor(int textColor, int backgroundColor) const;
-    void printMassive(int* massive, int count, bool endl) const;
-    void printMessage(int message, bool endl) const;
-    void printMessage(std::string message, bool endl) const;
-    void printSpace(Space& space, char* symboles) const;
-    int cin_variable(std::string message);
+    void printMassive(int* massive, int count, bool endl = true) const;
+
+    void printMessage(int message, bool endl = true) const;
+    void printMessage(bool message, bool endl) const;
+    void printMessage(std::string message, bool endl = true) const;
+    void printMessage(char message, bool endl = true) const;
+
+    void printMassiveVector(Vector* massiveVector, int count) const;
+    void printSpace(Space& space, int voidTextColor = 0, int voidBackgroundColor = 0, int hurdleTextColor = 0, int hurdleBackgroundColor = 0) const;
+    int cin_variable(std::string message = "");
 };
 
 
