@@ -72,11 +72,10 @@ void Screen::printMassiveVector(Vector* massiveVector, int count) const
     }
 }
 
-void Screen::printSpace(Space& space, int voidTextColor, int voidBackgroundColor, int hurdleTextColor, int hurdleBackgroundColor) const
+unsigned int Screen::getTrueCountCoord(Space& space) const
 {
-    int test = 0;
     unsigned int count = 0;
-    Vector vectorTime{-1, -1};
+    Vector vectorTime{ -1, -1 };
 
     for (int i = 0; i < space.count_hurdle; i++)
     {
@@ -84,6 +83,13 @@ void Screen::printSpace(Space& space, int voidTextColor, int voidBackgroundColor
             count += 1;
         }
     }
+    return count;
+}
+
+void Screen::printSpace(Space& space) const
+{
+    Vector vectorTime{ -1, -1 };
+    unsigned int count = getTrueCountCoord(space);
 
     for (int i = 0; i < space.coords.getY(); i++)
     {
@@ -92,18 +98,23 @@ void Screen::printSpace(Space& space, int voidTextColor, int voidBackgroundColor
             vectorTime = {j, i};
             
             if (space.massive_hurdle[count].getX() == vectorTime.getX() && space.massive_hurdle[count].getY() == vectorTime.getY()) {
-                setColor(hurdleTextColor, hurdleBackgroundColor);
+                setColor(space.colorHurdle[0], space.colorHurdle[1]);
                 printMessage(space.symboleHurdle, false);
                 count += 1;
             }
             else {
-                setColor(voidTextColor, voidBackgroundColor);
+                setColor(space.colorVoid[0], space.colorVoid[1]);
                 printMessage(space.symboleVoid, false);
             }
 
         }
         printMessage("");
     }
+}
+
+void Screen::limitDisplay(Space& space, int radius, int voidTextColor, int voidBackgroundColor, int hurdleTextColor, int hurdleBackgroundColor) const
+{
+    
 }
 
 int Screen::cin_variable(std::string message)

@@ -24,7 +24,10 @@ public:
     void printMessage(char message, bool endl = true) const;
 
     void printMassiveVector(Vector* massiveVector, int count) const;
-    void printSpace(Space& space, int voidTextColor = 0, int voidBackgroundColor = 0, int hurdleTextColor = 0, int hurdleBackgroundColor = 0) const;
+    unsigned int getTrueCountCoord(Space& space) const;
+    void printSpace(Space& space) const;
+    
+    void limitDisplay(Space& space, int radius, int voidTextColor, int voidBackgroundColor, int hurdleTextColor, int hurdleBackgroundColor) const;
     int cin_variable(std::string message = "");
 };
 
