@@ -71,6 +71,16 @@ int* Space::getColorHurdle() const
     return this->colorHurdle;
 }
 
+char Space::getSymboleVoid() const
+{
+    return this->symboleVoid;
+}
+
+char Space::getSymboleHurdle() const
+{
+    return this->symboleHurdle;
+}
+
 bool Space::checkBorder(Vector value)
 {
     
@@ -132,10 +142,9 @@ void Space::sortMassiveHurdle()
     }
 }
 
-void Space::editColor(int* color,int textColor, int backgroundColor) 
+void Space::editColor(int* getColor, int textColor, int backgroundColor)
 {
-    if (color == colorVoid || color == colorHurdle)
-    {
+    if (getColor == colorVoid){
         for (int i = 0; i < countLimitColor; i++)
         {
             if (i % 2 == 0) {
@@ -145,5 +154,26 @@ void Space::editColor(int* color,int textColor, int backgroundColor)
                 colorVoid[i] = backgroundColor;
             }
         }
+    }
+    else if (getColor == colorHurdle){
+        for (int i = 0; i < countLimitColor; i++)
+        {
+            if (i % 2 == 0) {
+                colorHurdle[i] = textColor;
+            }
+            else {
+                colorHurdle[i] = backgroundColor;
+            }
+        }
+    }
+}
+
+void Space::editSymbole(char oldSymbole, char newSymbole)
+{
+    if (oldSymbole == symboleVoid){
+        symboleVoid = newSymbole;
+    }
+    else if (oldSymbole == symboleHurdle) {
+        symboleHurdle = newSymbole;
     }
 }

@@ -8,9 +8,14 @@ class Screen;
 class Item
 {
 	private:
-		friend class Screen;
 		const Vector coords;
 		char symbole;
+		int* color;
+		const int countLimitColor = 2;
+
+		friend class Screen;
+	public:
+		//Screen(Vector _coords, char symbole)
 };
 
 #endif

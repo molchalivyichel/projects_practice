@@ -29,12 +29,15 @@ class Space
         Vector* getMassiveHurdle() const;
         int* getColorVoid() const;
         int* getColorHurdle() const;
+        char getSymboleVoid() const;
+        char getSymboleHurdle() const;
 
         void sortMassiveHurdle();
         bool checkBorder(Vector value);
         void deletionMassiveHurdle();
 
-        void editColor(int* color,int textColor, int backgroundColor);
+        void editColor(int* color, int textColor, int backgroundColor);
+        void editSymbole(char old_symbole, char new_symbole);
 };
 
 #endif

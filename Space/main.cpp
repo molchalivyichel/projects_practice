@@ -17,6 +17,6 @@ int main()
     space.sortMassiveHurdle();
 
     screen.printSpace(space);
-
+    screen.setColor(7, 0);
     return 0;
 }
