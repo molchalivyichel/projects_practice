@@ -15,7 +15,7 @@ class Item
 
 		friend class Screen;
 	public:
-		//Screen(Vector _coords, char symbole)
+		
 };
 
 #endif

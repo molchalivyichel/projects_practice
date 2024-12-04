@@ -20,8 +20,6 @@ class Space
 
         friend class Screen;
     public:
-        Space(const Vector _coords, const int _count_hurdle, char _symboleVoid,
-            char _symboleHurdle, int* _colorVoid = nullptr, int* _colorHurdle = nullptr);
         Space(const Vector _coords, const int _count_hurdle, Vector* _massive_hurdle, char _symboleVoid,
             char _symboleHurdle, int* _colorVoid = nullptr, int* _colorHurdle = nullptr);
         ~Space();
