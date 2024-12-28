@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Big files
+*.pch
+*.sdf
+*.pdb
+*.ipch
