@@ -12,9 +12,18 @@ void fill(std::string symbole, int height, int widht)
     }
 }
 
-void printError(std::string error)
+void printPath(wchar_t const* path)
 {
-    setColor(4);
-    std::cerr << "Error: " << error << "\n";
-    setColor();
+    if (path == L"") {
+        std::wcout << "incorrect path" << L"\n";
+    }
+    std::wcout << path << L"\n";
+}
+
+void printPath(char const* path)
+{
+    if (path == "") {
+        std::cout << "incorrect path" << "\n";
+    }
+    std::cout << path << "\n";
 }

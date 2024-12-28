@@ -36,3 +36,9 @@ void setColor(int textColor, int backgroundColor) {
     int color = backgroundColor * 16 + textColor;
     SetConsoleTextAttribute(hConsole, color);
 }
+
+void useRus()
+{
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+}

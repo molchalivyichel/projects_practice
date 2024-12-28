@@ -10,7 +10,8 @@ namespace fs = std::filesystem;
 
 
 int main() {
-
+    
+    useRus();
     const int width = 750; 
     const int height = 750; 
 

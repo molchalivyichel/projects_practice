@@ -6,14 +6,23 @@ class Directory
 {
 private:
 	std::string pathDirectory;
-	int countFile;
+	unsigned int countRegularFile;
+	unsigned int countDirectorys;
 public:
 	Directory(std::string _pathDirectory);
 
 	bool checkPathDirectory();
 	void editPathDirectory(std::string newPathDirectory);
 	std::string getPathDirectory() const;
-	void prewiewFilesDirectory(bool recursive = false) const;
+
+	void editCountRegularFile(unsigned int newCountRegularFile);
+	unsigned int getCountRegularFile() const;
+
+	void editCountDirectorys(unsigned int newCountDirectorys);
+	unsigned int getCountDirectorys() const;
+	
+	void prewiewFilesDirectory(bool recursive = false);
+	void countingFiles();
 };
 
 
