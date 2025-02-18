@@ -1,11 +1,8 @@
 #include <filesystem> 
 #include <fstream>
-#include <string>
-#include <map>
 #include "interface.h"
 #include "workFiles.h"
 #include <iostream>
-
 
 namespace fs = std::filesystem;
 
@@ -14,6 +11,7 @@ Directory::Directory(std::string _pathDirectory) : pathDirectory(_pathDirectory)
 	if (checkPathDirectory() == false) {
 		editPathDirectory("");
 	}
+	countingFiles();
 }
 
 bool Directory::checkPathDirectory()
@@ -48,31 +46,30 @@ unsigned int Directory::getCountDirectorys() const
 	return countDirectorys;
 }
 
+void Directory::iterateDirectory(auto directoryIterator, unsigned int& countRegularFile, unsigned int& countDirectory)
+{
+	for (const fs::directory_entry& dir_entry : directoryIterator)
+	{
+		std::cout << countRegularFile + countDirectory << ". ";
+		printPath(dir_entry.path().c_str());
+		if (dir_entry.is_regular_file()) countRegularFile++;
+		else countDirectory++;
+	}
+}
+
 void Directory::prewiewFilesDirectory(bool recursive)
 {
-	unsigned int countRegularFile = 0;
-	unsigned int countDirectory = 0;
+	unsigned int localCountRegularFile = 0;
+	unsigned int localCountDirectory = 0;
 	
 	fs::directory_options options = fs::directory_options::skip_permission_denied | fs::directory_options::follow_directory_symlink;
+
 	try {
-		if (!recursive) {
-			for (const fs::directory_entry& dir_entry : fs::directory_iterator(this->pathDirectory, options))
-			{
-				std::cout << countRegularFile + countDirectory << ". ";
-				printPath(dir_entry.path().c_str());
-				if (dir_entry.is_regular_file()) countRegularFile++;
-				else countDirectory++;
-			}
+		if (recursive) {
+			iterateDirectory(fs::recursive_directory_iterator(this->pathDirectory, options), localCountRegularFile, localCountDirectory);
 		}
 		else {
-			for (const fs::directory_entry& dir_entry : fs::recursive_directory_iterator(this->pathDirectory, options))
-			{
-				std::cout << countRegularFile + countDirectory << ". ";
-				printPath(dir_entry.path().c_str());
-
-				if (dir_entry.is_regular_file()) countRegularFile++;
-				else countDirectory++;
-			}
+			iterateDirectory(fs::directory_iterator(this->pathDirectory, options), localCountRegularFile, localCountDirectory);
 		}
 	}
 	catch (const fs::filesystem_error& e){
@@ -80,9 +77,6 @@ void Directory::prewiewFilesDirectory(bool recursive)
 		std::wcerr << "Error code: " << e.code() << L"\n";
 		std::wcerr << "Path causing the error: " << e.path1() << L"\n";
 	}
-
-	std::cout << "\nRegular file: " << countRegularFile << "\n";
-	std::cout << "Directory file: " << countDirectory << "\n";
 }
 
 void Directory::countingFiles()
@@ -101,3 +95,6 @@ void Directory::countingFiles()
 	editCountRegularFile(countRegularFile);
 	editCountDirectorys(countDirectory);
 }
+
+//Сделать две переменные, отвечающие за количество директорий и файлов в текущей директории
+//и ясное дело их подсчет также

@@ -12,28 +12,28 @@ namespace fs = std::filesystem;
 int main() {
     
     useRus();
-    const int width = 750; 
-    const int height = 750; 
+    int width = 750; 
+    int height = 750; 
 
     setConsoleSize(width, height);
-    //lockConsoleResize();
+    lockConsoleResize();
     setColor(2);
 
     std::string filename = "filename.txt";
 
 
-    Directory directory{ "E:\\" }; // либо \\ или / fs::current_path().string()
-    std::cout << directory.getPathDirectory() << "\n";
-    directory.prewiewFilesDirectory(true);
-    std::cin.get();
-    //ctrl+k+c, ctrl+k+u
+    Directory directory{ "E:\\projects_programming" }; // либо \\ или / fs::current_path().string()
+    directory.prewiewFilesDirectory();
+    
+    
+
     /*if (std::filesystem::exists(filename)) {
         std::cout << filename << "\n";
 
         char symbole;
-        std::cout << "Let`s go to edit file(y/n): ";
+        std::cout << "let`s go to edit file(y/n): ";
         std::cin >> symbole;
-        if (symbole == 'y' || symbole == 'Y') {
+        if (symbole == 'y') {
             std::ofstream out;
             out.open(filename);
             if (out.is_open()) {
@@ -43,17 +43,17 @@ int main() {
                 out.close();
             }
         }
-        else if (symbole == 'n' || symbole == 'N') {
+        else if (symbole == 'n') {
             std::cout << "no problem\n";
         }
 
     } else {
         char symbole;
-        std::cout << "none\n" << "Let`s go to create file(y/n): ";
+        std::cout << "none file\n" << "let`s go to create file(y/n): ";
         std::cin >> symbole;
-        if (symbole == 'y' || symbole == 'Y') {
+        if (symbole == 'y') {
             std::ofstream outfile(filename);
-        } else if (symbole == 'n' || symbole == 'N') {
+        } else if (symbole == 'n') {
             std::cout << "no problem\n";
         }
     }*/

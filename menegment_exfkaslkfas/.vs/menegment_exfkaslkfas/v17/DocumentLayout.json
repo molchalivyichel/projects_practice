@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|solutionrelative:interface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|solutionrelative:interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\workFiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|solutionrelative:workFiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|solutionrelative:interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C8C20B33-F909-4B5F-953E-D2DE6A73FD59}|menegment_exfkaslkfas.vcxproj|solutionrelative:interface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 176,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,67 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "interface.h",
               "DocumentMoniker": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.h",
               "RelativeDocumentMoniker": "interface.h",
               "ToolTip": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.h",
               "RelativeToolTip": "interface.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-28T22:02:02.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "interface.cpp",
-              "DocumentMoniker": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.cpp",
-              "RelativeDocumentMoniker": "interface.cpp",
-              "ToolTip": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.cpp",
-              "RelativeToolTip": "interface.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-28T21:59:01.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "workFiles.h",
-              "DocumentMoniker": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\workFiles.h",
-              "RelativeDocumentMoniker": "workFiles.h",
-              "ToolTip": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\workFiles.h",
-              "RelativeToolTip": "workFiles.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-25T22:08:50.231Z",
+              "WhenOpened": "2025-02-18T12:29:52.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "workFiles.h",
+              "DocumentMoniker": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\workFiles.h",
+              "RelativeDocumentMoniker": "workFiles.h",
+              "ToolTip": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\workFiles.h",
+              "RelativeToolTip": "workFiles.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-18T17:28:14.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "workFiles.cpp",
               "DocumentMoniker": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\workFiles.cpp",
               "RelativeDocumentMoniker": "workFiles.cpp",
               "ToolTip": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\workFiles.cpp",
               "RelativeToolTip": "workFiles.cpp",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-25T22:08:38.934Z",
+              "WhenOpened": "2025-02-18T11:34:19.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAADwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-24T19:29:38.506Z",
+              "WhenOpened": "2025-02-18T11:34:12.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "interface.cpp",
+              "DocumentMoniker": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.cpp",
+              "RelativeDocumentMoniker": "interface.cpp",
+              "ToolTip": "E:\\projects_programming\\projects_practice\\menegment_exfkaslkfas\\interface.cpp",
+              "RelativeToolTip": "interface.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-18T11:34:08.021Z",
               "EditorCaption": ""
             }
           ]

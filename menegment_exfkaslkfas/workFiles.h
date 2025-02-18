@@ -20,7 +20,8 @@ public:
 
 	void editCountDirectorys(unsigned int newCountDirectorys);
 	unsigned int getCountDirectorys() const;
-	
+
+	void iterateDirectory(auto directoryIterator, unsigned int& countRegularFile, unsigned int& countDirectory);
 	void prewiewFilesDirectory(bool recursive = false);
 	void countingFiles();
 };

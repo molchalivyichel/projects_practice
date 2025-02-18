@@ -1,4 +1,5 @@
 #include <windows.h> // Для работы с Windows API
+#include <clocale>
 
 void setConsoleSize(int width, int height) {
 
@@ -41,4 +42,10 @@ void useRus()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
+    std::setlocale(LC_ALL, "RU"); 
+}
+
+void clearConsole() 
+{
+    system("cls");
 }
