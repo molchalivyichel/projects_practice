@@ -36,3 +36,5 @@
 *.sdf
 *.pdb
 *.ipch
+
+.vs/
